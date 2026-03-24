@@ -57,7 +57,7 @@ int main() {
 
                 ifstream ficheiro("diario.txt");
                 getline(ficheiro, mensagem);
-                ficheiro.close();
+        ficheiro.close();
 
                 mensagem = desencriptar(mensagem);
 
